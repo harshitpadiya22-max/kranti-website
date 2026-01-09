@@ -3,160 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kranti | Platform for Passion-Based Careers</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fa;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background: #0f172a;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 12px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    h2 {
-      margin-bottom: 16px;
-      color: #0f172a;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-    .cta {
-      background: #2563eb;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .cta button {
-      background: #fff;
-      color: #2563eb;
-      border: none;
-      padding: 12px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      border-radius: 6px;
-      cursor: pointer;
-      margin: 8px;
-    }
-    footer {
-      background: #0f172a;
-      color: #fff;
-      padding: 30px 20px;
-    }
-    footer input, footer textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      border-radius: 4px;
-      border: none;
-    }
-    footer button {
-      background: #2563eb;
-      color: #fff;
-      border: none;
-      padding: 10px 16px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-  </style>
+  <title>Kranti</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<header>
-  <h1>Kranti</h1>
-  <p>Platform for Passion-Based Careers</p>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#programs">Programs</a>
-    <a href="#events">Events</a>
-    <a href="#blogs">Blogs</a>
-    <a href="#profile">My Profile</a>
-  </nav>
+<header class="header">
+  <h1>KRANTI</h1>
+  <p>Purpose. People. Progress.</p>
 </header>
 
-<section id="about">
+<section class="section">
   <h2>About Kranti</h2>
   <p>
-    Kranti exists to bridge the gap between passion and livelihood.  
-    We serve young individuals, creators, and changemakers who want to turn
-    purpose into sustainable careers through mentorship, training, and community.
+    Kranti is a purpose-driven platform focused on empowering individuals
+    through mentorship, skill-based training, and a strong community ecosystem.
+    We serve students, professionals, creators, and changemakers.
   </p>
 </section>
 
-<section id="programs">
+<section class="section">
   <h2>Our Programs</h2>
   <div class="cards">
     <div class="card">
       <h3>Mentorship</h3>
-      <p>Guidance from experienced professionals to shape real-world paths.</p>
+      <p>Guidance from experienced leaders and professionals.</p>
     </div>
     <div class="card">
       <h3>Training</h3>
-      <p>Skill-based learning programs aligned with passion-driven careers.</p>
+      <p>Practical, industry-aligned learning programs.</p>
     </div>
     <div class="card">
       <h3>Community</h3>
-      <p>A collaborative ecosystem to grow, share, and build together.</p>
+      <p>A collaborative network for growth and impact.</p>
     </div>
   </div>
 </section>
 
-<section id="events">
+<section class="section">
   <h2>Upcoming Events</h2>
-  <p>Workshops, talks, and community meetups will be announced here.</p>
+  <p>Workshops, meetups, and national-level initiatives coming soon.</p>
 </section>
 
-<section id="blogs">
+<section class="section">
   <h2>Magazines & Blogs</h2>
-  <p>
-    • Official decisions & updates (Press-style)  
-    • Stories & insights for readers  
-    • Submissions by writers & marketers
-  </p>
+  <ul>
+    <li>Official updates & decisions (Press-release style)</li>
+    <li>Knowledge hub for readers, writers & marketers</li>
+    <li>Human stories that make Kranti relatable</li>
+  </ul>
 </section>
 
-<div class="cta">
-  <h2>Be Part of Kranti</h2>
+<section class="cta">
+  <h2>Be a Part of Kranti</h2>
   <button>Join</button>
   <button>Volunteer</button>
   <button>Partner</button>
-</div>
-
-<section id="profile">
-  <h2>My Profile</h2>
-  <p>User profiles and dashboards will be introduced here.</p>
 </section>
 
-<footer>
-  <h2>Contact Us</h2>
-  <input type="text" placeholder="Your Name">
-  <input type="email" placeholder="Your Email">
-  <textarea placeholder="Your Message"></textarea>
-  <button>Send Message</button>
-  <p style="margin-top:20px;">© Kranti. All rights reserved.</p>
+<section class="section">
+  <h2>My Profile</h2>
+  <p>User dashboard and contribution history (coming soon).</p>
+</section>
+
+<footer class="footer">
+  <h3>Contact Us</h3>
+  <form>
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>Email: contact@kranti.org</p>
 </footer>
 
 </body>
